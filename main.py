@@ -8,7 +8,6 @@ def home():
     return render_template('index.html')
 
 
-
 def app_run(alt_port, dev_mode=False):
     if dev_mode:
         app.debug = True
